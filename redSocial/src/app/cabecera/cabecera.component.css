@@ -9,3 +9,18 @@ img{
     size: 5px;
     block-size: 50px;
 }
+
+  ul 
+  { 
+    list-style-type: none;
+    list-style-position: outside;
+   
+
+  } 
+ li 
+ { 
+   
+ padding: 10px; 
+  margin: 0px; 
+  }  
+
