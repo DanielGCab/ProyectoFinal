@@ -1,8 +1,11 @@
 <p>Mis historietas</p>
-<ul *ngFor="let historia of misHistorietas"> 
-    <li>{{historia.content}} <br>
-        {{historia.publishDate}}
-    </li>
-</ul>
+<div class="scroll">
+<div *ngFor="let historia of misHistorietas" class="container"  > 
+
+    <div class="borde">{{historia.content}} <br>
+        <span>{{historia.publishDate}}</span>
+    </div>
+</div>
+</div>
 
 

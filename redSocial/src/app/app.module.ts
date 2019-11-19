@@ -13,6 +13,7 @@ import { MisCosasComponent } from './misCosas/mis-cosas/mis-cosas.component';
 import { DatosPersonalesComponent } from './misCosas/datos-personales/datos-personales.component';
 import { MisColeguillasComponent } from './misCosas/mis-coleguillas/mis-coleguillas.component';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -31,7 +32,10 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    routing
+    routing,
+    FormsModule,
+    ReactiveFormsModule
+   
   ],
   providers: [HistorietasService],
   bootstrap: [AppComponent]

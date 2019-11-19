@@ -11,3 +11,10 @@ div{
     margin-left: 1%;
     margin-bottom: 1%;
 }
+body{
+    -webkit-box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0,0,0,0);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+}

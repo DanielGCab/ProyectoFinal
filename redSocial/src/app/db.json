@@ -1,74 +1,29 @@
 {
-    "misHistorietas":[
-        {
-            "id": "1",
-            "content": "Hola Don Pepito",
-            "publishDate": "31/10/2019",
-            "idUser": "1"
-          },
-          {
-            "id": "2",
-            "content": "Hola Don José",
-            "publishDate": "31/10/2019",
-            "idUser": "2"
-          },
-          {
-            "id": "3",
-            "content": "¿Pasó usted por mi casa?",
-            "publishDate": "31/10/2019",
-            "idUser": "2"
-          },
-          {
-            "id": "4",
-            "content": "Por su casa yo pasé",
-            "publishDate": "31/10/2019",
-            "idUser": "1"
-          },
-          {
-            "id": "5",
-            "content": "¿Vió usted a mi abuela?",
-            "publishDate": "31/10/2019",
-            "idUser": "2"
-          },
-          {
-            "id": "6",
-            "content": "A su abuela yo la ví",
-            "publishDate": "31/10/2019",
-            "idUser": "1"
-          },
-          {
-            "id": "7",
-            "content": "Adios Don Pepito",
-            "publishDate": "31/10/2019",
-            "idUser": "2"
-          },
-          {
-            "id": "8",
-            "content": "Adios Don José",
-            "publishDate": "31/10/2019",
-            "idUser": "1"
-          }
-    ],
-    
-    "users": [
-      {
-        "id": "1",
-        "name": "Don José",
-        "surname": "Martinez",
-        "birthDate": "1978/05/21",
-        "startDate": "2019/10/31",
-        "user": "Josete",
-        "pass": "123"
-      },
-      {
-        "id": "2",
-        "name": "Don Pepito",
-        "surname": "Gómez",
-        "birthDate": "1980/12/3",
-        "startDate": "2019/10/31",
-        "user": "Pepetron",
-        "pass": "1234"
-      }
-    ]
-
+  "misHistorietas": [
+    {
+      "content": "Hola Don pepito",
+      "publishDate": "2019/10/2",
+      "id": 1
+    },
+    {
+      "content": "Hola...",
+      "publishDate": "2019/10/2",
+      "id": 2
+    },
+    {
+      "content": "Hola...safasdf",
+      "publishDate": "2019/10/2",
+      "id": 3
+    },
+    {
+      "content": "dgeewgwe",
+      "publishDate": "2019/10/2",
+      "id": 4
+    },
+    {
+      "content": "egweg",
+      "publishDate": "2019/10/2",
+      "id": 5
+    }
+  ]
 }

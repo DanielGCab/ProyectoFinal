@@ -1,9 +1,22 @@
 ul{
     list-style: none;
 }
-li{
-    border: 2px solid black;
+.borde{
+    border: 2px solid rgba(7,29,43,0.99);
+    border-radius: 19px;
     margin: 5px;
     margin-left: 300px;
     margin-right: 300px;
+   
+}
+.scroll{
+    overflow: scroll;
+
+}
+
+span{
+    
+    display: flow-root;
+    margin-right: 40px;
+ 
 }

@@ -1,7 +1,19 @@
 <app-cabecera></app-cabecera>
 <app-user></app-user>
 <div>
-<p>Di algo</p>
-<textarea name="comment" id="comment" cols="60" rows="5"></textarea>
+    <br>
+
+<form>
+    <label for="content">Di algo</label><br>
+    <textarea class="ta3" type="text"  [(ngModel)]="mensaje.contenido" name="content" ></textarea><br>
+  
+    <input type="submit" (click)="addHistorieta()" value="Publicar">
+
+    
+
+</form>
 </div>
+<span>
 <app-mis-historietas></app-mis-historietas>
+</span>
+
