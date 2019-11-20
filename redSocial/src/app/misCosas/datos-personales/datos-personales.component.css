@@ -1,3 +1,12 @@
-div{
+.div{
     margin-top: 12%;
+}
+
+.border1{
+    border: 2px solid #000000;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+input{
+    border: none;
 }

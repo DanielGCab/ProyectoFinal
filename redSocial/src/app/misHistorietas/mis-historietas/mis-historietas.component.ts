@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HistorietasService } from '../mis-historietas.service'
 import { Historieta } from '../historietas.model';
+import { userModel } from 'src/app/user/user.model';
 
 
 @Component({
@@ -11,7 +12,8 @@ import { Historieta } from '../historietas.model';
 export class MisHistorietasComponent implements OnInit {
 
 
-  misHistorietas:  Historieta[]
+  misHistorietas:  Historieta[];
+  user: userModel;
   constructor(private historietas: HistorietasService) { }
 
   ngOnInit() {

@@ -1,3 +1,4 @@
+
 ul{
     display: flex;
     list-style: none;
@@ -11,10 +12,4 @@ li{
     margin-right: 1px;
     margin-left: 1px;
     width: 50%;
-}
-.border1{
-
-    margin: 1px;
-    margin-left: 10px;
-    margin-right: 10px;
 }

@@ -14,6 +14,10 @@ import { DatosPersonalesComponent } from './misCosas/datos-personales/datos-pers
 import { MisColeguillasComponent } from './misCosas/mis-coleguillas/mis-coleguillas.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { UserService } from './user/user.Service';
+import { ColeguillasComponent } from './coleguillas/coleguillas.component';
+import { BuscadorComponent } from './coleguillas/buscador/buscador.component';
+import { InfoColeguillaComponent } from './coleguillas/info-coleguilla/info-coleguilla.component';
 
 
 @NgModule({
@@ -26,6 +30,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     MisCosasComponent,
     DatosPersonalesComponent,
     MisColeguillasComponent,
+    ColeguillasComponent,
+    BuscadorComponent,
+    InfoColeguillaComponent,
    
   ],
   imports: [
@@ -37,7 +44,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     ReactiveFormsModule
    
   ],
-  providers: [HistorietasService],
+  providers: [HistorietasService, UserService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

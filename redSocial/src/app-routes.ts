@@ -5,6 +5,7 @@ import { UserComponent } from './app/user/user.component';
 import { CabeceraComponent } from './app/cabecera/cabecera.component';
 import { MisCosasComponent } from './app/misCosas/mis-cosas/mis-cosas.component';
 import { ComentarComponent } from './app/misHistorietas/comentar/comentar.component';
+import { ColeguillasComponent } from './app/coleguillas/coleguillas.component';
 
 
 
@@ -12,7 +13,8 @@ import { ComentarComponent } from './app/misHistorietas/comentar/comentar.compon
 const routes: Routes=[
     {path: '', component: ComentarComponent},
     {path: 'home', component: ComentarComponent},
-    {path: 'cosas', component: MisCosasComponent}
+    {path: 'cosas', component: MisCosasComponent},
+    {path: 'coleguillas', component: ColeguillasComponent}
   ];
   
   export const routing: ModuleWithProviders = RouterModule.forRoot(routes);

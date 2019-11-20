@@ -1,0 +1,45 @@
+img{
+    block-size: 60px;
+    border-bottom: 4px outset #FFFFFF;
+    border-radius: 40px;
+}
+.div{
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 2px solid black;
+}
+.selected{
+    
+    background-color: darkgray;
+    padding: 2px;
+}
+.unSelected{
+    color: black;
+}
+.scroll{
+
+    overflow: scroll;
+    height: 320px;
+  
+  }
+
+li{
+    
+    width: 20%;
+    list-style: none;
+}
+
+span{
+  
+    
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+}

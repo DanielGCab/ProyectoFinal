@@ -1,7 +1,10 @@
 export class userModel{
     id: number;
     name: string;
-    subname: string;
-    image: string;
-
+    surname: string;
+    birthDate: string;
+    startDate: string;
+    user: string;
+    pass: string;
+    selected: boolean
 }

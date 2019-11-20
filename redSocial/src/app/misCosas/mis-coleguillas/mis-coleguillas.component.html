@@ -1,2 +1,26 @@
+<div >
 <p>Mis Coleguillas</p>
-<textarea name="" id="" cols="30" rows="10"></textarea>
+
+
+    <div class="scroll">
+  
+        <div style="text-align: left;" *ngFor="let user of users" 
+        [class.selected]="user.selected==true"
+        [class.unSelected]="user.selected==false"
+        (mouseover)="selectedShow(user)"
+        (mouseout)="unSelectedShow(user)" >
+        
+        <ul>
+            <li><img [src]="user.img" alt="" ></li>
+            <li><span>{{user.name}}</span> <br>
+                <span>{{user.surname}}</span> <br>
+                
+            </li>
+            <div class="div">Solicitar amistad</div>
+          
+    </ul>
+      
+        </div>
+    </div>
+    
+</div>
