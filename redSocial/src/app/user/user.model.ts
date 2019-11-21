@@ -6,5 +6,6 @@ export class userModel{
     startDate: string;
     user: string;
     pass: string;
-    selected: boolean
+    selected: boolean;
+    friend: boolean;
 }
