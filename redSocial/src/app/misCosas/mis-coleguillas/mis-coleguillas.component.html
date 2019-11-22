@@ -9,16 +9,20 @@
         [class.unSelected]="user.selected==false"
         (mouseover)="selectedShow(user)"
         (mouseout)="unSelectedShow(user)" >
-        
+        <div *ngIf="user.id!= 1">
         <ul>
             <li><img [src]="user.img" alt="" ></li>
             <li><span>{{user.name}}</span> <br>
                 <span>{{user.surname}}</span> <br>
                 
             </li>
-            <div class="div">Solicitar amistad</div>
+    <input  name="cancelar" type="button"  class="amistad"
+            *ngIf="user.friend == false" (click)="solicitarAm(user,user.id)" value="Solicitar Amistad">
+    <input  name="cancelar" type="button" class="noAmistad"
+            *ngIf="user.friend == true" (click)="cancelarAm(user,user.id)" value="Cancelar Amistad">
           
-    </ul>
+        </ul>
+    </div>
       
         </div>
     </div>

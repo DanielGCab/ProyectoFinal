@@ -44,6 +44,15 @@ export class MisColeguillasComponent implements OnInit {
   unSelectedShow(user: userModel){
     user.selected= false;
   }
+  solicitarAm(user: userModel, id: string){
+    user.friend = true;
+    this.userService.addAmistad(user,id).subscribe()
+  }
+
+  cancelarAm(user: userModel, id: string){
+    user.friend = false;
+    this.userService.addAmistad(user,id).subscribe()
+  }
 
 
 

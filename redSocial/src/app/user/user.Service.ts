@@ -51,6 +51,12 @@ export class UserService{
         return this.http.put<userModel>(url,user,httpOptions)
     }
 
+    addAmistad(user: userModel,id:string){
+        const url = `${URL_BASE}/users/${id}`
+        
+        return this.http.put<userModel>(url,user,httpOptions)
+    }
+
 
 
 

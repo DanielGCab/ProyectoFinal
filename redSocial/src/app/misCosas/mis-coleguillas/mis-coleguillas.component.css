@@ -43,3 +43,12 @@ span{
     font-variant: normal;
     text-transform: uppercase;
 }
+.amistad{
+    background: rgb(76, 76, 218);
+    color: white;
+}
+
+.noAmistad{
+    background: rgb(189, 80, 80);
+   
+}

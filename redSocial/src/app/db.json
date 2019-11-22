@@ -36,7 +36,7 @@
       "id": "1",
       "name": "Daniel",
       "surname": "Gómez",
-      "img": "../../assets/cara.jpg",
+      "img": "../../../assets/cara.jpg",
       "birthDate": "1997/08/14",
       "startDate": "2019/10/31",
       "user": "Dani",
@@ -47,23 +47,41 @@
       "id": "2",
       "name": "Don Pepito",
       "surname": "Gómez",
+<<<<<<< HEAD
       "img": "../../assets/icono.jpg",
+=======
+      "img": "../../../assets/cara2.jpg",
+>>>>>>> 6307a7a86ca6ce325167f0ef087df770684d2e36
       "birthDate": "1980/12/3",
       "startDate": "2019/10/31",
       "user": "Pepetron",
       "pass": "1234",
-      "selected": false
+      "selected": true,
+      "friend": false
     },
     {
       "name": "Pepe",
       "surname": "Muñoz",
       "birthDate": "1834/01/17",
-      "img": "../../assets/cara.jpg",
+      "img": "../../../assets/cara3.jpg",
       "startDate": "2019/10/31",
       "user": "Manolete",
       "pass": "1234",
       "id": "4",
-      "selected": false
+      "selected": true,
+      "friend": true
+    },
+    {
+      "name": "Manolo",
+      "surname": "Manolete",
+      "birthDate": "1834/01/17",
+      "img": "../../../assets/icono.jpg",
+      "startDate": "2019/10/31",
+      "user": "Manolete",
+      "pass": "1234",
+      "id": "4",
+      "selected": false,
+      "friend": false
     }
   ]
 }
