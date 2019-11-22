@@ -1,9 +1,12 @@
 a{
-    border: 3px solid #666666;
-    border-radius: 25px;
+
     padding: 5px;
     margin: 5px;
+    border: 3px ridge #2798E3;
+    border-radius: 23px;
+    
 }
+
 
 img{
     size: 5px;

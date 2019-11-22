@@ -41,7 +41,7 @@ span{
     text-decoration: none;
     font-style: normal;
     font-variant: normal;
-    text-transform: uppercase;
+  
 }
 .amistad{
     background: rgb(76, 76, 218);
@@ -51,4 +51,17 @@ span{
 .noAmistad{
     background: rgb(189, 80, 80);
    
+}
+
+p{
+    font-family: Impact, Charcoal, sans-serif;
+
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #000000;
+font-weight: 400;
+text-decoration: none solid rgb(68, 68, 68);
+font-style: normal;
+font-variant: small-caps;
+text-transform: uppercase;
 }

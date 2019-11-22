@@ -34,11 +34,11 @@ export class MisColeguillasComponent implements OnInit {
   }
   selectedUser(user: userModel,id:string){
     user.selected=true;
-    this.userService.selectedUser(user,id).subscribe()
+    
   }
   unSelectedUser(user: userModel,id:string){
     user.selected=false;
-    this.userService.selectedUser(user,id).subscribe()
+   
   }
   
   unSelectedShow(user: userModel){
@@ -46,11 +46,13 @@ export class MisColeguillasComponent implements OnInit {
   }
   solicitarAm(user: userModel, id: string){
     user.friend = true;
+    user.selected=false;
     this.userService.addAmistad(user,id).subscribe()
   }
 
   cancelarAm(user: userModel, id: string){
     user.friend = false;
+    user.selected=false;
     this.userService.addAmistad(user,id).subscribe()
   }
 

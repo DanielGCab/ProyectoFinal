@@ -1,19 +1,85 @@
 {
-  "posts": [
+  "misHistorietas": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "content": "Prueba 1",
+      "publishDate": "2019/10/5",
+      "id": 1
+    },
+    {
+      "content": "Hola",
+      "publishDate": "2019/10/5",
+      "id": 2
+    },
+    {
+      "content": "adcvadv",
+      "publishDate": "2019/10/5",
+      "id": 3
+    },
+    {
+      "content": "Ultima historieta",
+      "publishDate": "2019/10/5",
+      "id": 4
     }
   ],
-  "comments": [
+  "users": [
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": "1",
+      "name": "Daniel",
+      "surname": "Gómez Cabrerizo",
+      "img": "../../../assets/cara.jpg",
+      "birthDate": "1997/08/14",
+      "startDate": "2019/10/31",
+      "user": "Dani",
+      "pass": "123",
+      "selected": false
+    },
+    {
+      "id": "2",
+      "name": "Pepe",
+      "surname": "Pepepe",
+      "img": "../../../assets/icono.jpg",
+      "birthDate": "1980/12/3",
+      "startDate": "2019/10/31",
+      "user": "Pepetron",
+      "pass": "1234",
+      "selected": false,
+      "friend": false
+    },
+    {
+      "id": "6",
+      "name": "Rodrigo",
+      "surname": "Díaz de Vivar",
+      "img": "../../../assets/cid.jpg",
+      "birthDate": "1048/12/3",
+      "startDate": "1092/10/28",
+      "user": "Cid Campeador",
+      "pass": "jimenaDiaz123",
+      "selected": false,
+      "friend": true
+    },
+    {
+      "name": "Manolo",
+      "surname": "Manolete",
+      "birthDate": "1834/01/17",
+      "img": "../../../assets/cara2.jpg",
+      "startDate": "2019/10/31",
+      "user": "Manolete",
+      "pass": "1234",
+      "id": "3",
+      "selected": false,
+      "friend": false
+    },
+    {
+      "name": "Al-Cádir",
+      "surname": "Banu Di-l-Nun",
+      "birthDate": "1075/03/17",
+      "img": "../../../assets/cara3.jpg",
+      "startDate": "1092/10/27",
+      "user": "Tu_ReisitoDeLas_Taifas",
+      "pass": "valenciaYtoleditoPaMi",
+      "id": "4",
+      "selected": false,
+      "friend": false
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

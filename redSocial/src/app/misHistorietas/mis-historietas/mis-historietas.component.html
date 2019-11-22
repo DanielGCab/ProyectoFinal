@@ -2,9 +2,13 @@
 <div class="scroll">
 <div *ngFor="let historia of misHistorietas" class="container"  > 
 
-    <div class="borde">
-        <img src="../../../assets/cara.jpg" alt="">
-            {{historia.content}} <br>
+    <div class="borde1">
+        <div style="text-align: left;">
+        <img [src]="user.img" alt=""> 
+        <p>{{ user.name }} <br>
+        {{ user.surname }}</p>
+    </div>
+            <div class="texto">{{historia.content}}</div> <br>
         <span>{{historia.publishDate}}</span>
     </div>
 </div>

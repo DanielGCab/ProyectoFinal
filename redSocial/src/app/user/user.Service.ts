@@ -25,6 +25,13 @@ export class UserService{
         return this.http.get(URL_BASE+'/users')
     }
 
+    getUserByName(nombre: string){
+        const url = URL_BASE+'/users/?name='+nombre;
+        return this.http.get(url);
+        
+        //  http://localhost:3000/users/?name=Daniel
+    }
+
     getUserById(){
         const url = URL_BASE+'/users/1';
         return this.http.get(url);

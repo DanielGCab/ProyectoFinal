@@ -10,12 +10,37 @@ img{
 
     
 }
-.borde{
+p{
+    font-family: Impact, Charcoal, sans-serif;
 
-    border: solid black;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #000000;
+font-weight: 400;
+text-decoration: none solid rgb(68, 68, 68);
+font-style: normal;
+font-variant: small-caps;
+text-transform: uppercase;
+}
+.texto{
+    font-family: Georgia, serif;
+font-size: 15px;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #000000;
+font-weight: normal;
+text-decoration: none solid rgb(68, 68, 68);
+font-style: italic;
+font-variant: normal;
+text-transform: none;
+}
+.borde1{
+
+  
     margin: 5px;
     margin-left: 20%;
     margin-right: 20%;
+    border: 5px groove #3D7AC4;
    
 }
 
@@ -27,8 +52,18 @@ img{
 }
 
 span{
+    font-family: "Arial Black", Gadget, sans-serif;
+font-size: 10px;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #000000;
+font-weight: 700;
+text-decoration: none solid rgb(68, 68, 68);
+font-style: normal;
+font-variant: normal;
+text-transform: none;
    
     margin-left: 60%;
-    margin-right: 40px;
+    margin-right: 20px;
  
 }

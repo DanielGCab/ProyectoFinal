@@ -1,2 +1,35 @@
 
-<input type="text" value="buscar..."> <input type="button" value="🔎">
+<input type="text" placeholder="Buscar por nombre..." [(ngModel)]="cadena.nombre"> 
+<input type="button" value="🔎" (click)="getColega(cadena.nombre)">
+
+<p>Información de tu coleguilla</p>
+
+<div>
+    <div >
+        <div *ngFor="let col of colega" >
+           
+            <ul >
+                    <li><img [src]="col.img" alt="" style="text-align: left;"></li>
+                    <li><span *ngIf="col?.name">Nombre: {{col.name}}</span> <br>
+                        <span *ngIf="col?.surname">Apellidos: {{col.surname}}</span> <br>
+                        <span *ngIf="col?.user">Nick: {{col.user}}</span> <br>
+                        <span *ngIf="col?.birthDate">Fecha de cumpleaños: {{col.birthDate}}</span> <br>
+                        <span *ngIf="col?.startDate">Fecha de inscripción: {{col.startDate}}</span> <br>
+
+
+                        <input  name="cancelar" type="button"  class="amistad"
+                        *ngIf="col.friend == false" (click)="solicitarAm(col,col.id)" value="Solicitar Amistad">
+
+                        <input  name="cancelar" type="button" class="noAmistad"
+                        *ngIf="col.friend == true" (click)="cancelarAm(col,col.id)" value="Cancelar Amistad">
+                    </li>
+            </ul>
+          
+              
+            </div>
+            
+        </div>
+    </div>
+
+
+

@@ -17,7 +17,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { UserService } from './user/user.Service';
 import { ColeguillasComponent } from './coleguillas/coleguillas.component';
 import { BuscadorComponent } from './coleguillas/buscador/buscador.component';
-import { InfoColeguillaComponent } from './coleguillas/info-coleguilla/info-coleguilla.component';
+import { EventsComponent } from './events/events.component';
+import { FooterComponent } from './footer/footer.component';
+
 
 
 @NgModule({
@@ -32,7 +34,9 @@ import { InfoColeguillaComponent } from './coleguillas/info-coleguilla/info-cole
     MisColeguillasComponent,
     ColeguillasComponent,
     BuscadorComponent,
-    InfoColeguillaComponent,
+    EventsComponent,
+    FooterComponent,
+   
    
   ],
   imports: [

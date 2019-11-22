@@ -1,0 +1,29 @@
+img{
+
+
+	-webkit-animation: shadow-drop-center 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) infinite reverse forwards;
+	animation: shadow-drop-center 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) infinite reverse forwards;
+    border-radius: 100px;
+}
+
+@-webkit-keyframes shadow-drop-center {
+    0% {
+      -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+              box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+              box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    }
+  }
+  @keyframes shadow-drop-center {
+    0% {
+      -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+              box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+              box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    }
+  }
+  

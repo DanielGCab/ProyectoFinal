@@ -1,0 +1,51 @@
+img{
+    block-size: 120px;
+    border-bottom: 4px outset #FFFFFF;
+    border-radius: 40px;
+  
+}
+ul{
+    list-style: none;
+}
+
+li{
+    float: left;
+}
+
+
+p{
+    font-family: Impact, Charcoal, sans-serif;
+
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #000000;
+font-weight: 400;
+text-decoration: none solid rgb(68, 68, 68);
+font-style: normal;
+font-variant: small-caps;
+text-transform: uppercase;
+}
+span{
+    margin: 20px;
+    
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+}
+
+.amistad{
+    background: rgb(76, 76, 218);
+    color: white;
+}
+
+.noAmistad{
+    background: rgb(189, 80, 80);
+   
+}
