@@ -18,7 +18,7 @@ export class ComentarComponent implements OnInit {
   public formGroup: FormGroup;
 
   mensaje={
-    contenido: 'Hola...'
+    contenido: ''
   }
 
    
@@ -61,7 +61,9 @@ export class ComentarComponent implements OnInit {
     historieta.content = this.mensaje.contenido;
     historieta.publishDate= this.fecha;
     historieta.id = null;
-    this.historietasService.addHistorieta(historieta).subscribe();
+    this.historietasService.addHistorieta(historieta).subscribe(
+      () => this.misHistorietas.push(historieta)
+    );
   }
 
 

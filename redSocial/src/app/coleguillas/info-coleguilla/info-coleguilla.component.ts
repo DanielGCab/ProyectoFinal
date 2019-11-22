@@ -12,16 +12,13 @@ export class InfoColeguillaComponent implements OnInit {
   constructor(private userService: UserService) { }
 
   coleguillas: userModel[];
-  colegas: userModel[];
+ 
 
   ngOnInit() {
     this.userService.getUsers().subscribe( (data: userModel[]) => this.coleguillas = data,
     error => console.log(error),
     () => console.log('Coleguillas cargados!!'))
-    if (this.coleguillas = undefined) {
-      this.colegas=this.coleguillas.filter( colegas => colegas.selected == false)
-    }
-
+  
     
   }
 
